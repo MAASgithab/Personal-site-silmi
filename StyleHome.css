@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+   background-image: url(floral-ornamental-abstract-background_52683-30016.avif);
+   background-size: cover;
+}
+    
+
+.jumbotron{
+    padding: 30px;
+    background: rgb(103,103,103);
+    background: linear-gradient(90deg, rgba(103,103,103,1) 8%, rgba(133,23,23,1) 78%);
+    border-radius: 0px;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    padding-inline: 2rem;
+    gap: 3rem;
+}
+
+nav li{
+    list-style-type: none;
+    font-size: larger;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: rgb(49, 66, 66);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.MyProfile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 17px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff46;
+}
+
+
+.fotoWK{
+    height: 10%;
+    width: 40%;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: rgb(192, 108, 108);
+    border-width: 5px;
+}
+
+.textWK{
+    margin-left: 20px;
+    line-height: 30px;
+    margin-right: 1rem;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.J1{
+    margin-left: 2rem;
+    
+}
+
+.flex{
+    margin-top: 30px;
+    display: flex;
+  
+}
+
+.konten1{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #616680 0%, #5a3f58 30%, #afafaf 66%, #ffffff 100%);
+    padding: 10px;
+    width: 65%;
+    box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 2rem;
+    margin-top: 30px;
+}
+
+.konten2{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #616680 0%, #5a3f58 30%, #afafaf 66%, #ffffff 100%);
+    padding: 10px;
+    width: 65%;
+    box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 39rem;
+    margin-top: 30px;
+}
+
+.flex2{
+    display: flex;
+}
+
+.textCO{
+    font-size: x-large;
+}
+footer{
+    background-color: #4158D0;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
